@@ -92,6 +92,7 @@ right_btn = Button(text="✓  Pata Hai", font=("Arial", 14), bg="#27ae60",
                    fg="white", command=known, padx=10, pady=5)
 right_btn.grid(row=1, column=1, pady=20)
 
+
 # app shuru hote hi pehla card dikhao
 next_card()
 window.mainloop()
