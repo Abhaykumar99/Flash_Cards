@@ -72,6 +72,7 @@ window = Tk()
 window.title("Day 30 – Flash Cards")
 window.config(bg=BACKGROUND, padx=50, pady=50)
 
+
 # Canvas par card draw karo
 canvas = Canvas(width=800, height=526, bg=BACKGROUND, highlightthickness=0)
 card_background = canvas.create_rectangle(30, 30, 770, 496,
